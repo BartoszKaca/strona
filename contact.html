@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - RetroPiłka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html"><img class="logo" src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="cart.html"><img class="icon"
+                                src="/images/icon _ shopping-cart.png"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html"><img class="icon"
+                                src="/images/icon _ interface _ profile.png"></a></li>
+            </div>
+
+        </div>
+    </nav>
+    <nav class="navbar collapse navbar-collapse nav1" id=navbarNav>
+        <div class="container collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="cart.html">Koszyk</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Konto</a></li>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light nav2">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">O nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Koszulki</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tracksuits.html">Bluzy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jackets.html">Kurtki</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+            </div>
+
+        </div>
+    </nav>
+    <header class="contact-header">
+        <h1>Skontaktuj się z nami</h1>
+        <p>Masz pytania? Jesteśmy tu, aby pomóc!</p>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row gy-4">
+            <div class="col-lg-6">
+                <div class="contact-info">
+                    <h3>Napisz do nas</h3>
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Imię i nazwisko</label>
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Wprowadź swoje imię i nazwisko" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Twój adres e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Wiadomość</label>
+                            <textarea class="form-control" id="message" name="message" rows="5"
+                                placeholder="Napisz wiadomość" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.918299612626!2d22.281996498555397!3d52.17178675628414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f5bb2a7e75aed%3A0x47d8cb735af52cad!2sZesp%C3%B3%C5%82%20Szk%C3%B3%C5%82%20Ponadgimnazjalnych%20nr%201%20w%20Siedlcach!5e0!3m2!1spl!2spl!4v1732316245634!5m2!1spl!2spl"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="address text-center mt-4">
+                    <h4>RetroPiłka</h4>
+                    <p>ul. Piłkarska 10<br>00-001 Warszawa, Polska</p>
+                    <p><strong>Telefon:</strong> +48 123 456 789</p>
+                    <p><strong>E-mail:</strong> kontakt@retropilka.pl</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3 mt-5">
+        <div class="container">
+            <p>&copy; 2024 RetroPiłka. Wszystkie prawa zastrzeżone.</p>
+            <p>
+                <a href="contact.html" class="text-dark">Kontakt</a> |
+                <a href="statute.html" class="text-dark">Regulamin</a> |
+                <a href="privacy_policy.html" class="text-dark">Polityka prywatności</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
